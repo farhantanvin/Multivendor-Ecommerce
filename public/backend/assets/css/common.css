@@ -1,0 +1,211 @@
+/*opacity*/
+.op-0 {
+    opacity: 0; }
+
+.op-0-force {
+    opacity: 0 !important; }
+
+.op-1 {
+    opacity: 0.1; }
+
+.op-1-force {
+    opacity: 0.1 !important; }
+
+.op-2 {
+    opacity: 0.2; }
+
+.op-2-force {
+    opacity: 0.2 !important; }
+
+.op-3 {
+    opacity: 0.3; }
+
+.op-3-force {
+    opacity: 0.3 !important; }
+
+.op-4 {
+    opacity: 0.4; }
+
+.op-4-force {
+    opacity: 0.4 !important; }
+
+.op-5 {
+    opacity: 0.5; }
+
+.op-5-force {
+    opacity: 0.5 !important; }
+
+.op-6 {
+    opacity: 0.6; }
+
+.op-6-force {
+    opacity: 0.6 !important; }
+
+.op-7 {
+    opacity: 0.7; }
+
+.op-7-force {
+    opacity: 0.7 !important; }
+
+.op-8 {
+    opacity: 0.8; }
+
+.op-8-force {
+    opacity: 0.8 !important; }
+
+.op-9 {
+    opacity: 0.9; }
+
+.op-9-force {
+    opacity: 0.9 !important; }
+
+.opacity-1 {
+    opacity: 1;
+}
+
+/*margin*/
+.mg-t-20 {
+    margin-top: 20px;
+}
+
+/*padding*/
+.pd-x-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*text*/
+.tx-24 {
+    font-size: 24px;
+}
+/*a*/
+a {
+    color: #0866C6;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+a {
+    transition: all 0.2s ease-in-out;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*extra*/
+.wd-80 {
+    width: 80px;
+}
+
+
+/*select 2*/
+.select2-container:focus{
+
+    outline: -webkit-focus-ring-color auto 0px;
+    border-bottom: 1px solid #4285f4;
+    -webkit-box-shadow: 0 1px 0 0 #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+.select2-container .select2-selection--single:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    border-bottom: 1px solid #4285f4;
+    -webkit-box-shadow: 0 1px 0 0 #4285f4;
+    box-shadow: 0 1px 0 0 #4285f4;
+}
+.select2-container--default .select2-selection--single {
+    /* border: 1px solid #ced4da; */
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #ced4da;
+}
+.select2-container .select2-selection--single {
+    height: 38px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 36px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 36px;
+}
+.select2-container{
+    /* width: 100%!important; */
+}
+.select2-results {
+
+    border-bottom: 1px solid #ced4da;
+}
+
+/* button */
+.btn.btn-rounded{
+    border-radius:10em
+}
+
+/*start parsley*/
+.box
+    {
+        width:100%;
+        max-width:600px;
+        background-color:#f9f9f9;
+        border:1px solid #ccc;
+        border-radius:5px;
+        padding:16px;
+        margin:0 auto;
+    }
+    input.parsley-success,
+    select.parsley-success,
+    textarea.parsley-success {
+        color: #468847;
+        /*border: 1px solid #468847 !important;*/
+    }
+    input.parsley-error,
+    select.parsley-error,
+    textarea.parsley-error {
+        color: #B94A48;
+        /*border: 1px solid #dc3545 !important;*/
+        padding-right: 2.25rem !important;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center right calc(.375em + .1875rem);
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    }
+    .parsley-errors-list {
+        margin: 2px 0 3px;
+        padding: 0;
+        list-style-type: none;
+        /*font-size: 0.9em;*/
+        line-height: 0.9em;
+        opacity: 0;
+        color: #dc3545 !important;
+
+        transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+    }
+    .parsley-errors-list.filled {
+        opacity: 1;
+    }
+    .parsley-type, .parsley-required, .parsley-equalto, .parsley-pattern, .parsley-length{
+        color:#dc3545 !important;
+    }
+
+    .spinner {
+        display:none;
+        width:18px; height:18px;
+        background:url('../../../upload/img/spinner.gif') no-repeat scroll center center transparent;
+    }
+    /*end parsley*/

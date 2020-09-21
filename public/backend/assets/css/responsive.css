@@ -1,0 +1,110 @@
+@media (min-width: 480px){
+    .fl-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fl-footer .footer-right {
+        margin-top: 0;
+    }
+}
+@media (min-width: 992px){
+    .collapsed-menu .fl-logo {
+        left: -230px;
+    }
+    .fl-sideleft {
+        left: 0;
+    }
+    .fl-header {
+        left: 230px;
+    }
+    .hidden-lg-up {
+        display: none !important;
+    }
+    .collapsed-menu .fl-logo {
+        left: -230px;
+    }
+    .collapsed-menu .fl-header {
+        left: 0;
+    }
+    .fl-sideleft {
+        left: 0;
+    }
+    .collapsed-menu .fl-sideleft {
+        width: 60px;
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+    .expand-menu .fl-sideleft {
+        width: 230px;
+    }
+    .op-lg-0-force {
+        opacity: 1 !important;
+    }
+    .show-left .menu-item-label {
+        display: block !important;
+        opacity: 1 !important;
+    }
+    .op-lg-0-force {
+        opacity: 0 !important;
+    }
+    .fl-mainpanel {
+        margin-left: 230px;
+    }
+    .fl-pagebody {
+        padding: 0 30px;
+    }
+    .collapsed-menu .fl-mainpanel {
+        margin-left: 60px;
+    }
+    .fl-footer {
+        padding: 20px;
+    }
+    
+
+}
+
+@media (min-width: 256px) and (max-width: 376.98px){
+    .datepicker{
+        top:875px!important;
+    }
+}
+@media (min-width: 377px) and (max-width: 575.98px){
+    .datepicker{
+        top:820px!important;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .datepicker{
+        top:445px!important;
+    }
+}
+@media (min-width: 768px) and (max-width:991.98px){
+    .datepicker{
+        top:425px!important;
+    }
+}
+@media (min-width: 992px) and (max-width:1050.98px){
+    .datepicker{
+        top:420px!important;
+    }
+}
+@media (min-width: 1051px) and (max-width:5500.98px){
+    .datepicker{
+        top:400px!important;
+    }
+}
+
+
+
+
+@media (max-width: 991.98px){
+    .hidden-md-down {
+        display: none !important;
+    }
+    .show-left .fl-header, .show-left .fl-mainpanel {
+        transform: translateX(230px);
+    }
+}

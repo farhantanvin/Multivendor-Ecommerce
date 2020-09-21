@@ -1,0 +1,74 @@
+table.table thead th{
+    text-align: center;
+}
+
+.select2-parent .select2-container--default .select2-selection--single {
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+}
+
+.select2-parent .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 20%;
+}
+
+.select2-parent .select2-container--default .select2-selection--single .select2-selection__clear {
+    margin-top: 0.6%;
+}
+
+.nav-sidebar>.nav-item.menu-open>.nav-link {
+    /*background-color: #007bff !important;*/
+}
+
+.box
+    {
+        width:100%;
+        max-width:600px;
+        background-color:#f9f9f9;
+        border:1px solid #ccc;
+        border-radius:5px;
+        padding:16px;
+        margin:0 auto;
+    }
+    input.parsley-success,
+    select.parsley-success,
+    textarea.parsley-success {
+        color: #468847;
+        border: 1px solid #468847 !important;
+    }
+    input.parsley-error,
+    select.parsley-error,
+    textarea.parsley-error {
+        color: #B94A48;
+        border: 1px solid #dc3545 !important;
+        padding-right: 2.25rem !important;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23dc3545' viewBox='-2 -2 7 7'%3e%3cpath stroke='%23dc3545' d='M0 0l3 3m0-3L0 3'/%3e%3ccircle r='.5'/%3e%3ccircle cx='3' r='.5'/%3e%3ccircle cy='3' r='.5'/%3e%3ccircle cx='3' cy='3' r='.5'/%3e%3c/svg%3E");
+        background-repeat: no-repeat;
+        background-position: center right calc(.375em + .1875rem);
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+    }
+    .parsley-errors-list {
+        margin: 2px 0 3px;
+        padding: 0;
+        list-style-type: none;
+        /*font-size: 0.9em;*/
+        line-height: 0.9em;
+        opacity: 0;
+        color: #dc3545 !important;
+
+        transition: all .3s ease-in;
+        -o-transition: all .3s ease-in;
+        -moz-transition: all .3s ease-in;
+        -webkit-transition: all .3s ease-in;
+    }
+    .parsley-errors-list.filled {
+        opacity: 1;
+    }
+    .parsley-type, .parsley-required, .parsley-equalto, .parsley-pattern, .parsley-length{
+        color:#dc3545 !important;
+    }
+
+    .spinner {
+        display:none;
+        width:18px; height:18px;
+        background:url('../upload/img/spinner.gif') no-repeat scroll center center transparent;
+    }
